@@ -1,5 +1,6 @@
-<html>
+<html lang="es">
 	<head>
+	<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
 		<link rel="stylesheet" type="text/css" href="css/header_style.css" />
 	</head>
@@ -8,7 +9,7 @@
 			<a href="../index.php">
 				<div id="cd-logo">
 					<img src="img/ic_logo.svg" alt="Logo" />
-					<p>LIBRERÍA CONFIGUROWEB</p>
+					<p>LIBRERÍA CSD</p>
 				</div>
 			</a>
 		</header>
