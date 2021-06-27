@@ -131,7 +131,7 @@
 						$query->bind_param("s", $isbn);
 						$query->execute();
 						$title = mysqli_fetch_array($query->get_result())[0];
-						$message = "Su solicitud para emitir el libro. '".$title."' con ISBN ".$isbn." Ha sido rechazado. Puedes solicitar el libro nuevamente o visitar la librería para obtener más información.";
+						$message = "Su solicitud para emitir el libro. '".$title."' con ISBN ".$isbn." Ha sido rechazado. Puedes solicitar el libro nuevamente o visitar la biblioteca para obtener más información.";
 						
 						$query = $con->prepare("DELETE FROM pending_book_requests WHERE request_id = ?");
 						$query->bind_param("d", $request_id);

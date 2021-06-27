@@ -57,6 +57,7 @@
 				{
 					$_SESSION['type'] = "member";
 					$_SESSION['id'] = $resultRow[0];
+					$_SESSION['name'] = $resultRow[4];
 					$_SESSION['username'] = $_POST['m_user'];
 					header('Location: home.php');
 				}

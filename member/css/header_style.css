@@ -23,7 +23,7 @@ img {
 header {
   position: relative;
   height: 50px;
-  background: #343642;
+  background: #0c0f38;
 }
 
 header #cd-logo {
@@ -48,7 +48,7 @@ header #cd-logo img , header #cd-logo p{
 }
 
 header #cd-logo p{
-	color: #d75069;
+	color: #f08800;
 	font-weight: bold;
 	font-size: 2.2rem;
 }
